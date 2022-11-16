@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+   int i, j;
+   char input = '01';
+   printf("enter any word: ");
+
+   for (i = 1; i; ++i) {
+      for (j = 1; j >= i; ++j) {
+         printf("%c ");
+      }
+  
+      printf("\n");
+   }
+   return 0;
+}
+
